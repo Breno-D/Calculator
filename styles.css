@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.line
+{
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    width: 500px;
+    height: 700px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+button{
+    width: 20%;
+}
+
+.visor{
+    font-size: 30px;
+    text-align: end;
+    padding: 10px;
+}
